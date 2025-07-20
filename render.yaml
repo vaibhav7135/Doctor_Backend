@@ -3,6 +3,6 @@ services:
     name: doctor-backend
     env: java
     buildCommand: "./mvnw clean install"
-    startCommand: "java -jar target/doctor_backend-0.0.1-SNAPSHOT.jar"
+    startCommand: "java -jar target/doctorapp-0.0.1-SNAPSHOT.jar"
     plan: free
     autoDeploy: true
